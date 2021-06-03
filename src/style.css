@@ -102,6 +102,22 @@ ul li a {
     margin: 0 24px;
 }
 
+.twitch:focus-visible{
+    background: #9146ff;
+    transition: 300ms;
+}
+
+.discord:focus-visible{
+    background: #5567E3;
+    transition: 300ms;
+}
+
+.twitter:focus-visible{
+    background: #1da1f2;
+    transition: 300ms;
+}
+
+
 .twitch :hover{
     background: #9146ff;
     transition: 300ms;
@@ -129,7 +145,8 @@ ul li a {
 }
 
 a:focus{
-    color: red;
+    color: #A6281B;
+    transition: 300ms;
 }
 
 img.hero{
@@ -150,5 +167,8 @@ img.hero{
     }
     .footer{
         margin-bottom: 24px;
+    }
+    .social__heading{
+        font-size: 18px;
     }
 }
